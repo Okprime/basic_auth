@@ -1,5 +1,5 @@
 {
-  "name": "eagleking",
+  "name": "users",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Team_EagleKing",
+  "author": "karo uwede",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "3.0.6",
@@ -20,10 +20,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Team-EagleKIng/login_task.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Team-EagleKIng/login_task/issues"
-  },
-  "homepage": "https://github.com/Team-EagleKIng/login_task#readme"
+    "url": "git+https://github.com/Okprime/basic_auth.git"
+  }
 }
