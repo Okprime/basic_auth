@@ -1,6 +1,6 @@
 const { signUpSchema, signInSchema } = require('../schema/schema');
 const service = require('../service/service');
-const {ValidationError} = require("@hapi/joi/lib/errors");
+// const {ValidationError} = require("@hapi/joi/lib/errors");
 
 
 module.exports = {
