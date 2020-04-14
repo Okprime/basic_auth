@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="440f3783-6009-4470-959f-8ff37b4cec54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Settings/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/Settings/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="440f3783-6009-4470-959f-8ff37b4cec54" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586852138844</updated>
-      <workItem from="1586852154919" duration="9299000" />
+      <workItem from="1586852154919" duration="9528000" />
     </task>
     <servers />
   </component>

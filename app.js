@@ -5,7 +5,7 @@ const router = require('./Route/router');
 const mongo = require('./Settings/settings');
 const app = express();
 
-const port = process.env.APP_PORT || 4000;
+const port =  process.env.PORT || 8080;
 const appName = process.env.APP_NAME;
 
 
