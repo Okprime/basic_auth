@@ -3,7 +3,7 @@ mongoose.set('useCreateIndex', true);
 
 mongoose.Promise = global.Promise;
 const connectionUrl = process.env.ATLAS_URI;
-console.log('Connecting to Mongo DB...');
+console.log('Connecting to Mongo DB...', connectionUrl);
 mongoose.connect(connectionUrl, {useNewUrlParser: true})
     .then((data) => {
         console.log('MongoDB was connected successfully');
