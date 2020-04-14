@@ -2,4 +2,6 @@
 
 .env
 
-.idea
+basic_auth.iml
+
+/.idea
