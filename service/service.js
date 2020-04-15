@@ -21,7 +21,6 @@ module.exports = {
 
     async getUser(data) {
         return usersModel.findOne(data);
-        // console.log('yes', yes);
     },
 
     async validateUser(param) {
