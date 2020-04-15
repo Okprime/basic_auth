@@ -17,14 +17,12 @@
     "express": "4.16.4",
     "express-async-handler": "^1.1.4",
     "mongoose": "5.4.12",
-    "nodemon": "1.18.10"
+    "nodemon": "1.18.10",
+    "@hapi/joi": "^17.1.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Okprime/basic_auth.git"
-  },
-  "devDependencies": {
-    "@hapi/joi": "^17.1.1"
   },
   "bugs": {
     "url": "https://github.com/Okprime/basic_auth/issues"
