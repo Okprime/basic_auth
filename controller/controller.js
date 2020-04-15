@@ -21,10 +21,11 @@ module.exports = {
                     message: messageBody,
                 });
             } catch (e) {
-                console.log('An error occurred', e);
                 if (e.name === 'MongoError' && e.code === 11000) {
+                    console.log('Username already exist');
                     messageBody = 'Username already exist';
                  } else {
+                    console.log('Invalid email');
                     messageBody = 'Invalid email';
                 }
             }

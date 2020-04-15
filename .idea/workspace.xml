@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="440f3783-6009-4470-959f-8ff37b4cec54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/settings/settings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +53,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.3.1" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,7 +70,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RunManager">
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -101,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586852138844</updated>
       <workItem from="1586852154919" duration="47253000" />
-      <workItem from="1586911574672" duration="748000" />
+      <workItem from="1586911574672" duration="2003000" />
     </task>
     <servers />
   </component>
@@ -122,6 +121,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="239" y="65" key="#Usage_Scope" timestamp="1586913875181">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="239" y="65" key="#Usage_Scope/0.0.1280.800@0.0.1280.800" timestamp="1586913875181" />
     <state x="377" y="187" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1586870803097">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -150,10 +153,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="193" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586911165062" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1586871076601">
+    <state x="141" y="39" key="SettingsEditor" timestamp="1586913886039">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586871076601" />
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586913886039" />
     <state x="490" y="314" key="VCS.ChangelistChooser" timestamp="1586861335788">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
