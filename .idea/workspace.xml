@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="440f3783-6009-4470-959f-8ff37b4cec54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/request_error_handler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/response_manager_middleware.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/settings/settings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586852138844</updated>
       <workItem from="1586852154919" duration="47253000" />
-      <workItem from="1586911574672" duration="7695000" />
+      <workItem from="1586911574672" duration="10776000" />
     </task>
     <servers />
   </component>
@@ -221,5 +217,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="288" y="11" width="703" height="777" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1586909694044" />
+    <state x="305" y="124" key="search.everywhere.popup" timestamp="1586948713272">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586948713272" />
   </component>
 </project>

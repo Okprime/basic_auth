@@ -16,28 +16,15 @@ module.exports = {
                     return res.successResponse({
                           message: messageBody,
                         });
-                // return res.send({
-                //     error: false,
-                //     code: 201,
-                //     message: messageBody,
-                // });
             } catch (e) {
                 if (e.name === 'MongoError' && e.code === 11000) {
                     console.log('Username already exist');
                     messageBody = 'Username already exist';
                  }
             }
-            //      return res.errorResponse({
-            //         data: errorData,
-            //       });
-            //     }
                  return res.errorResponse({
                      message: messageBody,
                   });
-                // return res.send ({
-                //     code: 400,
-                //     message: messageBody
-                // })
         },
 
     //SignIn
@@ -49,26 +36,26 @@ module.exports = {
         try {
             const isExist = await service.validateUser(req.body);
             if (isExist) {
+                console.log('You have successfully signed up')
                 messageBody = 'You have successfully signed up';
-                code = 201;
+                return res.successResponse({
+                    message: messageBody,
+                });
             } else if (isExist === false) {
+                console.log('Incorrect password');
                 messageBody =  'Incorrect password';
-                code = 400;
             } else if (isExist === null) {
+                console.log('User does not exist, kindly sign up');
                 messageBody = 'User does not exist, kindly sign up';
-                code = 400;
             }
-            return res.send({
-                error: false,
-                code: code,
+            return res.errorResponse({
                 message: messageBody,
-            });
+            })
         } catch (e) {
             console.log('An error occurred', e);
             messageBody = 'Something went wrong';
-            return res.send ({
-                code: 504,
-                message: messageBody
+            return res.errorResponse({
+                message: messageBody,
             })
         }
     }

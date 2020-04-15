@@ -27,7 +27,7 @@ module.exports = {
         const { username, password } = param;
         const response = await this.getUser({ username });
         if (response) {
-            console.log('response', response);
+            console.log('Data gotten');
         } else {
             console.log('No data found');
             return null;
