@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="440f3783-6009-4470-959f-8ff37b4cec54" name="Default Changelist" comment="" />
+    <list default="true" id="440f3783-6009-4470-959f-8ff37b4cec54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +100,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586852138844</updated>
-      <workItem from="1586852154919" duration="45686000" />
+      <workItem from="1586852154919" duration="47253000" />
+      <workItem from="1586911574672" duration="748000" />
     </task>
     <servers />
   </component>
@@ -106,7 +113,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -125,22 +134,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1586861542247" />
-    <state width="1238" height="193" key="GridCell.Tab.0.bottom" timestamp="1586908650021">
+    <state width="1238" height="193" key="GridCell.Tab.0.bottom" timestamp="1586911165063">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="193" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586908650021" />
-    <state width="1238" height="193" key="GridCell.Tab.0.center" timestamp="1586908650019">
+    <state width="1238" height="193" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586911165063" />
+    <state width="1238" height="193" key="GridCell.Tab.0.center" timestamp="1586911165061">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="193" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586908650019" />
-    <state width="1238" height="193" key="GridCell.Tab.0.left" timestamp="1586908650018">
+    <state width="1238" height="193" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586911165061" />
+    <state width="1238" height="193" key="GridCell.Tab.0.left" timestamp="1586911165061">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="193" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586908650018" />
-    <state width="1238" height="193" key="GridCell.Tab.0.right" timestamp="1586908650021">
+    <state width="1238" height="193" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586911165061" />
+    <state width="1238" height="193" key="GridCell.Tab.0.right" timestamp="1586911165062">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="193" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586908650021" />
+    <state width="1238" height="193" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586911165062" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1586871076601">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -149,9 +158,13 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="490" y="314" key="VCS.ChangelistChooser/0.0.1280.800@0.0.1280.800" timestamp="1586861335788" />
-    <state x="288" y="11" width="703" height="777" key="find.popup" timestamp="1586868383556">
+    <state x="300" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1586911570432">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="288" y="11" width="703" height="777" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1586868383556" />
+    <state x="300" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1586911570432" />
+    <state x="288" y="11" width="703" height="777" key="find.popup" timestamp="1586909694044">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="288" y="11" width="703" height="777" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1586909694044" />
   </component>
 </project>

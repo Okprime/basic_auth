@@ -1,7 +1,7 @@
 {
   "name": "users",
   "version": "1.0.0",
-  "description": "",
+  "description": "An API for sign-up and sign-in",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
@@ -25,5 +25,9 @@
   },
   "devDependencies": {
     "@hapi/joi": "^17.1.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Okprime/basic_auth/issues"
+  },
+  "homepage": "https://github.com/Okprime/basic_auth#readme"
 }
