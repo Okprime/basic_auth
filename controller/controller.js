@@ -24,9 +24,7 @@ module.exports = {
                 console.log('An error occurred', e);
                 if (e.name === 'MongoError' && e.code === 11000) {
                     messageBody = 'Username already exist';
-                 } else if (e === ValidationError) {
-                    messageBody = 'Missing field';
-                } else {
+                 } else {
                     messageBody = 'Invalid email';
                 }
             }
