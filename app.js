@@ -3,6 +3,8 @@ require('dotenv').config();
 const express = require('express');
 const router = require('./route/router');
 const cors = require('cors');
+const errorHandler = require('./lib/request_error_handler');
+const responseManager = require('./lib/response_manager_middleware');
 const mongo = require('./settings/settings');
 const app = express();
 
@@ -17,8 +19,11 @@ app.use(function(req, res, next) {
     next();
    });
 
+
+app.use(responseManager);
 app.use(router);
 app.use(cors());
+
 
 // Endpoint 1
 
@@ -27,8 +32,9 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, (res) => {
-
     console.log(`${appName} is listening on ${port}`)
 });
+app.use(errorHandler);
+
 
 

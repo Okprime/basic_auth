@@ -1,6 +1,5 @@
 const { signUpSchema, signInSchema } = require('../schema/schema');
 const service = require('../service/service');
-// const {ValidationError} = require("@hapi/joi/lib/errors");
 
 
 module.exports = {
@@ -8,39 +7,46 @@ module.exports = {
         async signUp (req, res) {
             let response;
             let messageBody;
-
+            await signUpSchema.validateAsync(req.body);
             try {
-                await signUpSchema.validateAsync(req.body);
                 const result = await service.saveUser(req.body);
                 response = result;
                 console.log('result', result);
                 messageBody = 'You have successfully signed up';
-                return res.send({
-                    error: false,
-                    code: 201,
-                    message: messageBody,
-                });
+                    return res.successResponse({
+                          message: messageBody,
+                        });
+                // return res.send({
+                //     error: false,
+                //     code: 201,
+                //     message: messageBody,
+                // });
             } catch (e) {
                 if (e.name === 'MongoError' && e.code === 11000) {
                     console.log('Username already exist');
                     messageBody = 'Username already exist';
-                 } else {
-                    console.log('Invalid email');
-                    messageBody = 'Invalid email';
-                }
+                 }
             }
-                return res.send ({
-                    code: 400,
-                    message: messageBody
-                })
+            //      return res.errorResponse({
+            //         data: errorData,
+            //       });
+            //     }
+                 return res.errorResponse({
+                     message: messageBody,
+                  });
+                // return res.send ({
+                //     code: 400,
+                //     message: messageBody
+                // })
         },
 
     //SignIn
     async signIn (req, res) {
         let messageBody;
         let code;
+        await signInSchema.validateAsync(req.body);
+
         try {
-            await signInSchema.validateAsync(req.body);
             const isExist = await service.validateUser(req.body);
             if (isExist) {
                 messageBody = 'You have successfully signed up';
